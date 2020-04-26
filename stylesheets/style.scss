@@ -1,0 +1,46 @@
+@import "variables";
+@import "bootstrap_addons";
+
+html, body {
+  height: 100%;
+  font: $font-size-root $font-family-base;
+  line-height: $line-height;
+  background: $light-gray; 
+}
+
+a { text-decoration: none !important; }
+.text-gray { color: gray; }
+.text-white { color: white; }
+
+.font-sans {
+  font-weight: 300;
+  font-family: $font-family-sans !important;
+}
+
+.box-shadow {
+  box-shadow: 0 1px 4px 1px rgba(black, 0.2);
+}
+
+.hover-green {
+  transition: color 0.2s ease, box-shadow 0.2s ease;
+  &:hover {
+    color: $green;
+    box-shadow: 0 0 3px 0 rgba($green, 0.1);
+  }
+}
+
+.image-slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+
+  img {
+    border-radius: 2px;
+    height: 200px;
+    margin-right: 20px;
+  }
+}
+
+.footer {
+  background-color: $green;
+}
