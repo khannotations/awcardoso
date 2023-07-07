@@ -11,7 +11,7 @@ Website is viewable on [awcardoso.com](https://awcardoso.com)
 
 #### Clone the repo (one time setup)
 
-_In the shell_
+_In the shell / terminal_
 ```
 cd ~/Desktop # Or Windows equivalent
 git clone https://github.com/khannotations/awcardoso
